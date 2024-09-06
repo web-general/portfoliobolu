@@ -379,21 +379,6 @@ footer{
 }
 
 @media (max-width: 420px){
-  .container{
-    height: 50rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(196, 138, 207, 0.158);
-  }
-  .name h1{
-    font-size: 1rem;
-    text-align: center;
-    position: absolute;
-    top: -2%;
-    right: 0;
-    left: 0;
-  }
   nav{
     justify-content: center;
     display: flex;
@@ -428,6 +413,22 @@ footer{
     height: 100%;
     color: black;
   }
+  .name h1{
+    font-size: 1rem;
+    text-align: center;
+    position: absolute;
+    top: -2%;
+    right: 0;
+    left: 0;
+  }
+  .container{
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(196, 138, 207, 0.158);
+  }
+ 
   .body h1{
     font-size: .6rem;
     padding-left: 1rem;
@@ -474,7 +475,6 @@ footer{
     height: 250px;
     width: 100%;
   }
-
   .removeonmobile{
     display: none;
   }
